@@ -1,0 +1,41 @@
+*{
+		padding: 0;
+		margin: 10px;
+	  }
+h1{
+		color: orange;
+		font: 26px helvetica;
+		}
+		
+h2, h3{
+		color: red;
+		font: 15px sans-serif;
+		}
+p{
+		color: grey;
+		font: 15px arial;
+		}
+ul li{
+		color: red;
+		font: arial;
+		}
+ol li{
+		color: fuchsia;
+		font: sans-serif;
+		}
+.gold{
+	  color: gold;
+	  }
+#logo{
+		font-weight: normal;
+		font-style: italic;
+		font-family: verdona;
+		font-size: 34px;
+		color: brown;
+		}
+.first:first-line{
+		color: red;
+		}
+a{
+		color: green;
+		}
