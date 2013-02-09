@@ -7,6 +7,10 @@ body{
 	width: 1080px;
 	margin: 0 auto;
 	}
+img{
+	float: left;
+	margin-right: 15px;
+	}
 h1{
 	color: #a9aeb3;
 	text-shadow: 10px 10px 10px #000;
@@ -25,7 +29,7 @@ h1{
 	background: rgba(250, 54, 54, 0.9);
 	}	
 h2, h3{
-	font: 20px/1.5, Verdona, sans-serif; 
+	font: 20px/1.5 Verdona, sans-serif; 
 	letter-spacing: 1px;
 	word-spacing: 1px;
 	}
