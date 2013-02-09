@@ -1,10 +1,39 @@
+/*------------------Body Content------------------*/
 html{	
 	}
 body{
-	font: 16px/1.5 Arial, Helvetica, sans-serif;
 	color: #a9aeb3;
 	background-color: #080808;
 	width: 1080px;
 	margin: 0 auto;
 	}
-		
+h1{
+	color: #a9aeb3;
+	text-shadow: 10px 10px 10px #000;
+	font-size: 40px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase; 
+	background-color: #374252;
+	padding: 20px;
+	margin: 10px;
+	letter-spacing: 2px;
+	opacity: 0.9;
+	line-height: 1.5;	
+	background: rgba(250, 54, 54, 0.9);
+	}	
+h2, h3{
+	font: 20px/1.5, Verdona, sans-serif; 
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	}
+p{
+	margin: 10px;
+	font: 20px/1.5, Verdona, sans-serif;
+	letter-spacing: 1px;
+	}
+ul li{
+	list-style-type: none;
+	}
