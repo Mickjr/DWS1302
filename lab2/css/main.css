@@ -4,7 +4,7 @@ html{
 body{
 	color: #a9aeb3;
 	background-color: #080808;
-	width: 1080px;
+	width: 960px;
 	margin: 0 auto;
 	}
 img{
@@ -17,6 +17,7 @@ h1{
 	font-size: 40px;
 	font-weight: normal;
 	font-style: normal;
+	font-variant: normal;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	text-transform: uppercase; 
@@ -27,6 +28,8 @@ h1{
 	opacity: 0.9;
 	line-height: 1.5;	
 	background: rgba(250, 54, 54, 0.9);
+	border-radius: 10px;
+	vertical-align: 2cm;
 	}	
 h2, h3{
 	font: 20px/1.5 Verdona, sans-serif; 
@@ -37,7 +40,12 @@ p{
 	margin: 10px;
 	font: 20px/1.5, Verdona, sans-serif;
 	letter-spacing: 1px;
+	text-indent: 2px;
 	}
 ul li{
 	list-style-type: none;
+	}
+a{
+	text-decoration: none;
+	color: #CC2D2D;
 	}
