@@ -1,6 +1,6 @@
 /*-----Body Style-----*/
 html{
-	background-color: #DAA520;
+	background-color: #283642;
 	margin: 0;
 	padding: 0;
 }
@@ -40,7 +40,6 @@ h1{
 	margin-right: 10px;
 	box-shadow: 5px 5px 5px #000;
 }
-  
 /*-----Navbar-----*/
 #navbar a{
 	color: #000;
@@ -50,16 +49,16 @@ h1{
 	height: 50px;
 	text-align: center;
 	font-size: 16px;		
-	}
+}
 #navbar a:visited{
 	color: #9CDC0A;
-	}
+}
 #navbar a:hover{
 	color: #fff;
-	}
+}
 #navbar a:active{
 	color: #710ec3;
-	}
+}
 /*-----columns-----*/
 #leftcontent{
 	float: left;
@@ -73,7 +72,7 @@ h1{
 	margin-left: 10px;
 	padding-left: 10px;
 	padding-right: 10px;	
-	}
+}
 #rightcontent{
 	float: right;
 	width: 320px;
@@ -83,30 +82,28 @@ h1{
 	background-image: url(../images/dark_fish_skin4.png);
 	margin-right: 10px;
 	padding-left: 10px;
-	}
-	
+}
 #picture_dude img{
 	width: 300px;	
-	}
+}
 	/*----gallery----*/
-
 #gallery{
 	float: left;
 	width: 550px;
 	clear: right;
-	}
+}
 #gallery li{
 	float: left;
 	width: 182px;
 	display: block;
-	}
+}
 #names{
 	overflow: hidden;
-	}		
+}		
 footer{
 	width: 800px;
 	clear: both;
 	text-indent: 20px;
 	font-size: 14px;
 	color: #fff;
-	}
+}
