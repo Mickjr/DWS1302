@@ -86,7 +86,7 @@ h1{
 #picture_dude img{
 	width: 300px;	
 }
-	/*----gallery----*/
+/*----gallery----*/
 #gallery{
 	float: left;
 	width: 550px;
@@ -99,7 +99,10 @@ h1{
 }
 #names{
 	overflow: hidden;
-}		
+}
+#names li{
+list-style-type: katakana-iroha;
+}	
 footer{
 	width: 800px;
 	clear: both;
