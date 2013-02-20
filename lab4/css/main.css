@@ -2,39 +2,190 @@
 ul,li,dt{
 	margin: 0;
 	padding: 0;
-	list-style: none;
-}
+	}
 /*---------Main Content-----*/
 html{
- background: url(../images/debut_dark_@2X.png) #285C62;	
+ 	background: #757575 url(../images/global_bg.jpg) repeat-x;
+	}
+/*-----background style------*/	
+	#wrapper {   
+	background-image: url(../images/pw_maze_white_@2X.png);
 }
 body{
 	width: 960px;
 	margin: 0 auto;
 	font-family: 'Englebert', sans-serif;
-	background: url(../images/global_bg.jpg) repeat-x #757575;
-	
+	background-image: url(../images/debut_dark_@2X.png);
+	background-color: #285C62;
 	border-radius: 10px;
-}
-#logo{
-	float:left;
-	width: 400px;
-}
-/*-----#top-section{
+	}
+#top-section{
 	overflow: hidden;
-}-----*/
-#navbar{
-/*---	float: right;-----*/
-	width: 300px;
-}
-#navbar li{
-	float: left;
-	width: 100px;
-	background-color: orange;
-	height: 100px;
-	line-height: 100px;
-}
+	}
+#logo{
+	text-shadow: 10px 10px 10px #000;
+  width: 500px;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  padding: 10px;
+  font-size: 32px;
+  color: #C8F1F3;
+	}
+p,dl,h2{
+	line-height: 18px;
+	}
 a{
 	text-decoration: none;
+	color: #C8F1F3;
+	}
+	.button{
+	text-align: center;
+	background-image: url(../images/button-1.png);
+	/*----background-image: url(../images/debut_dark_@2X.png);----*/
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #000;
+	text-decoration: none;
+	color: #C8F1F3;
+	text-shadow: 10px 10px 10px #000;
+	}
+.button:hover{
+	background-image: url(../images/button-2.png);
+	width: 150px;
+	height: 50px;
+	}
+/*-----navbar and sprite-----*/
+#navbar{	
+	width: 300px;
+	/*---background-color: #285C62;----*/
+	float: right;
+	list-style: none;	
+	background-color: #285C62;
+	box-shadow: 10px 10px 10px #000;
+	margin: 10px;
+	border-radius: 10px;
+	}
+#navbar li {
+	float: left;
+	line-height: 45px;
+	height: 45px;
+ 	width: 100px;
+ 	text-align: center;
+	}
+#navbar li a {
+ 	float: left;
+	line-height: 45px;
+	height: 45px;
+ 	width: 100px;
+ 	display: block;
+ 	background: url(../images/sprite.jpg) no-repeat;
+ 	text-decoration: none;
+ 	text-indent: -9999px;
+	}
+/*----products tab-----*/
+ul#navbar li#products a:link{
+	background-position: 0 0;
+	}
+ul#navbar li#products a:visited{
+	background-position: 0 0;
+	}
+ul#navbar li#products a:hover{
+	background-position: 0 -50px;	
+	}
+ul#navbar li#products a:active{
+	background-position: 0 -100px;
+	}
+/*-------shop tab-------*/
+ul#navbar li#shop a:link{
+	background-position: -100px 0;
+	}
+ul#navbar li#shop a:visited{
+	background-position: -100px 0;
+	}
+ul#navbar li#shop a:hover{
+	background-position: -100px -100px;
+	}
+ul#navbar li#shop a:active{
+	background-position: -100px -150px;
+	}
+/*-----------support tab-------*/
+
+ul#navbar li#support a:link{
+	background-position: -150px 0;
+	}
+ul#navbar li#support a:visited{
+	background-position: -150px 0;
+	}
+ul#navbar li#support a:hover{
+	background-position: -150px -100px;	
+	}
+ul#navbar li#support a:active{
+	background-position: -150px -150px;
+	}
+/*-------flow or webpage--------*/
+#cta {
+	float:left;
+	width: 560px;
+	clear: both;
+	background-color: #285C62;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #000;
+	border-radius: 10px;
+	margin: 10px
 }
-	
+#extra {
+	width: 560px;
+}
+#overview {
+	float: right;
+	width: 320px;
+	background-color: #285C62;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #000;
+	border-radius: 10px;
+	margin: 10px;
+	}
+#gallery {
+	float:left;
+	clear: both;
+	width: 560px;
+	background-color: #285C62;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #000;
+	border-radius: 10px;
+	margin: 10px;
+}
+#gallery_pics {
+	float: right;
+	width: 540px;
+	padding: 10px;
+}
+#gallery_pics li {
+	float: left;
+	width: 108px;
+	list-style: none;	
+}
+aside {
+	float: right;
+	width: 320px;
+	padding: 10px;	
+	background-color: #285C62;
+	box-shadow: 10px 10px 10px #000;
+	border-radius: 10px;
+	margin: 10px;
+}
+#specs li {
+	list-style: none;
+	line-height: 18px;
+}
+footer {
+	color: #C8F1F3;
+	clear: both;
+	padding-left: 10px;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
