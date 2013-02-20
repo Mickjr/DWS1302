@@ -20,11 +20,11 @@ body{
 	float:left;
 	width: 400px;
 }
-#top-section{
+/*-----#top-section{
 	overflow: hidden;
-}
+}-----*/
 #navbar{
-	float: right;
+/*---	float: right;-----*/
 	width: 300px;
 }
 #navbar li{
