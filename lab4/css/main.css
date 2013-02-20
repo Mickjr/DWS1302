@@ -1,0 +1,40 @@
+/*-----------reset---------*/
+ul,li,dt{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*---------Main Content-----*/
+html{
+ background: url(../images/debut_dark_@2X.png) #285C62;	
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Englebert', sans-serif;
+	background: url(../images/global_bg.jpg) repeat-x #757575;
+	
+	border-radius: 10px;
+}
+#logo{
+	float:left;
+	width: 400px;
+}
+#top-section{
+	overflow: hidden;
+}
+#navbar{
+	float: right;
+	width: 300px;
+}
+#navbar li{
+	float: left;
+	width: 100px;
+	background-color: orange;
+	height: 100px;
+	line-height: 100px;
+}
+a{
+	text-decoration: none;
+}
+	
