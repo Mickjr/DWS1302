@@ -5,39 +5,46 @@ html{
 	padding: 0;
 }
 body{
-	width: 940px;
+	max-width: 940px;
 	border-radius: 20px;
 	background-image: url(../images/dark_fish_skin3.png);
 	margin: 0 auto;
 	font-family: Georgia, "Times New Roman", Times, sans-serif;
 	box-shadow: 10px 10px 10px #000;
+	font-size: 62.5%;
 }
 #main-content{
 	list-style: none;
-	font-size: 20px;
+	font-size: 2em;
 	background-color: #781FC2;
 }
 h1{
-	font-size: 40px;
-	padding-top: 30px;
-	padding-left: 15px;
+	font-size: 4em;
+	padding-top: 30px; /*-----30/940-----*/
+	padding-left: 15px; /*----15/940-----*/
 	text-shadow: 5px 5px 5px #000;
-	margin-left: 75px;
+	margin-left: 75px; /*-----75/940-----*/
 	letter-spacing: 3px;
 	color: #DAA520;
-}		
+}	
+h2, h3{
+	font-size: 1.5em;
+	}	
 #navbar{
-	width: 500px;
+	width: 500px; /*--------500/940   --------*/
 	float: right;
 	list-style: none;
-	margin-right: 10px;
+	margin-right: 10px; /*----10/940----*/
 }
+p{
+	font-size: 1.5em;
+	}
 #navbar li{
-	width: 100px;
+	width: 100px; /*-------100/500   -------*/
 	border-radius: 10px;
 	float: left;
 	background-image: url(../images/dark_fish_skin4.png);
-	margin-right: 10px;
+	margin-right: 10px; /*----10/500-----*/
 	box-shadow: 5px 5px 5px #000;
 }
 /*-----Navbar-----*/
@@ -62,51 +69,49 @@ h1{
 /*-----columns-----*/
 #leftcontent{
 	float: left;
-	width: 560px;
+	width: 560px;/*---560/940   ---------*/
 	background-color: #DAA520;
 	background-image: url(../images/dark_fish_skin4.png);
-	border-radius: 20px;
+	border-radius: 20px; 
 	border-color: #000;
 	border-width:2px;
 	box-shadow: 5px 5px 5px #000;
-	margin-left: 10px;
-	padding-left: 10px;
-	padding-right: 10px;	
+	margin-left: 10px; /*------10/940----*/
+	padding-left: 10px; /*-----10/940----*/
+	padding-right: 10px; /*----10/940----*/	
 }
 #rightcontent{
 	float: right;
-	width: 320px;
+	width: 300px; /*--------300/940   ----------*/
 	border-radius:20px;
 	box-shadow: 5px 5px 5px #000;
 	background-color: #DAA520;
 	background-image: url(../images/dark_fish_skin4.png);
-	margin-right: 10px;
-	padding-left: 10px;
+	margin: 0 10px 0 10px; /*----10/300, 10/300-----*/
+	padding: 10px; /*-----10/300-------*/
 }
 #picture_dude img{
-	width: 300px;	
+	max-width: 100%;	
 }
 /*----gallery----*/
 #gallery{
 	float: left;
-	width: 550px;
+	width: 550px; /*-----550/940------*/
 	clear: right;
 }
 #gallery li{
 	float: left;
-	width: 182px;
+	width: 182px; /*-------182/940------*/
 	display: block;
 }
-#names{
-	overflow: hidden;
-}
 #names li{
-list-style-type: katakana-iroha;
+ list-style-type: katakana-iroha;
+ font-size: 1.5em;
 }	
 footer{
-	width: 800px;
+	width: 800px;  /*----------800/940   ----------*/
 	clear: both;
 	text-indent: 20px;
-	font-size: 14px;
+	font-size: 1em;
 	color: #fff;
 }
