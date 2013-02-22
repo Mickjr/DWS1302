@@ -148,6 +148,9 @@ body {
 	}
 #names {
 	display: none;
+	}
+#gallery-1{
+	display: none;
 	} 
 h1 {
 	font-size: 2em;
@@ -164,7 +167,8 @@ body {
 	background-color: #D6AC81;	
 	}
 #navbar li a {
-	background-color: #736370;
+	background-color: #DAA520;
+	border-radius: 10px;
 	}
 h1 {
 	font-size: 2em;
