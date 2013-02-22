@@ -20,10 +20,10 @@ body{
 }
 h1{
 	font-size: 4em;
-	padding-top: 30px; /*-----30/940-----*/
-	padding-left: 15px; /*----15/940-----*/
+	padding-top: 30px; /*-----30/940  3.1914894%; -----*/
+	padding-left: 15px; /*----15/940 1.5957447%-----*/
 	text-shadow: 5px 5px 5px #000;
-	margin-left: 75px; /*-----75/940-----*/
+	margin-left: 75px; /*-----75/940 7.9787234%-----*/
 	letter-spacing: 3px;
 	color: #DAA520;
 }	
@@ -31,20 +31,20 @@ h2, h3{
 	font-size: 1.5em;
 	}	
 #navbar{
-	width: 500px; /*--------500/940   --------*/
+	width: 500px; /*--------500/940  53.1914894% --------*/
 	float: right;
 	list-style: none;
-	margin-right: 10px; /*----10/940----*/
+	margin-right: 10px; /*----10/940  1.0638----*/
 }
 p{
 	font-size: 1.5em;
 	}
 #navbar li{
-	width: 100px; /*-------100/500   -------*/
+	width: 100px; /*-------100/500   20%-------*/
 	border-radius: 10px;
 	float: left;
 	background-image: url(../images/dark_fish_skin4.png);
-	margin-right: 10px; /*----10/500-----*/
+	margin-right: 10px; /*----10/500 2%-----*/
 	box-shadow: 5px 5px 5px #000;
 }
 /*-----Navbar-----*/
@@ -69,26 +69,26 @@ p{
 /*-----columns-----*/
 #leftcontent{
 	float: left;
-	width: 560px;/*---560/940   ---------*/
+	width: 59.07173%;/*---560/940---------*/
 	background-color: #DAA520;
 	background-image: url(../images/dark_fish_skin4.png);
 	border-radius: 20px; 
 	border-color: #000;
 	border-width:2px;
 	box-shadow: 5px 5px 5px #000;
-	margin-left: 10px; /*------10/940----*/
-	padding-left: 10px; /*-----10/940----*/
-	padding-right: 10px; /*----10/940----*/	
+	margin-left: 1.063829%; /*------10/940----*/
+	padding-left: 1.063829%; /*-----10/940----*/
+	padding-right: 1.063829%; /*----10/940----*/	
 }
 #rightcontent{
 	float: right;
-	width: 300px; /*--------300/940   ----------*/
-	border-radius:20px;
+	width: 31.9148936%; /*--------300/940----------*/
+	border-radius: 20px;
 	box-shadow: 5px 5px 5px #000;
 	background-color: #DAA520;
 	background-image: url(../images/dark_fish_skin4.png);
-	margin: 0 10px 0 10px; /*----10/300, 10/300-----*/
-	padding: 10px; /*-----10/300-------*/
+	margin: 0 3.33333333% 0 3.33333333%; /*----10/300, 10/300-----*/
+	padding: 3.33333333%; /*-----10/300-------*/
 }
 #picture_dude img{
 	max-width: 100%;	
@@ -96,12 +96,12 @@ p{
 /*----gallery----*/
 #gallery{
 	float: left;
-	width: 550px; /*-----550/940------*/
+	width: 58.5106383%; /*-----550/940------*/
 	clear: right;
 }
 #gallery li{
 	float: left;
-	width: 182px; /*-------182/940------*/
+	width: 19.1983122%; /*-------182/940------*/
 	display: block;
 }
 #names li{
@@ -109,7 +109,7 @@ p{
  font-size: 1.5em;
 }	
 footer{
-	width: 800px;  /*----------800/940   ----------*/
+	width: 85.106383%;  /*----------800/940   ----------*/
 	clear: both;
 	text-indent: 20px;
 	font-size: 1em;
