@@ -29,7 +29,7 @@ h1{
 }	
 h2, h3{
 	font-size: 1.5em;
-	}	
+}	
 #navbar{
 	width: 53.1914894%; /*--------500/940  53.1914894% --------*/
 	float: right;
@@ -38,7 +38,7 @@ h2, h3{
 }
 p{
 	font-size: 1.5em;
-	}
+}
 #navbar li{
 	width: 20%; /*-------100/500   20%-------*/
 	border-radius: 10px;
@@ -116,73 +116,75 @@ footer{
 	color: #fff;
 }
 /*----------mobile styles----------*/
-@media only screen and (max-width: 480px) {
-html {
+@media only screen and (max-width: 480px){
+html{
 	background-color: #0E0D0F;
- }
-body {
+}
+body{
 	background-color: #AB9E15;	
- }
-#navbar li a {
-	background-color: #0E0D0F;
+}
+#navbar li a{
+	background-color: #FF0000;
 	font-size: 25.5%;
- }
-#names {
+	border-radius: 10px;
+}
+#names{
 	display: none;
- } 
+} 
 #gallery-1{
 	display: none;
-	}
+}
 h1{
 	font-size: 1.6em;
 	text-shadow: 10px 10px 10px #000;
-	color: #000;
+	color: #0E0D0F;
  }
 }
 /*----------tablet styles----------*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-html {
+@media only screen and (min-width: 481px) and (max-width: 768px){
+html{
 	background-color: #A7990E;
-	}
-body {
+}
+body{
 	background-color: #D6AC81;	
-	}
-#navbar li a {
+}
+#navbar li a{
 	background-color: #736370;
 	font-size: 45.5%;
-	}
-#names {
+	border-radius: 10px;
+}
+#names{
 	display: none;
-	}
+}
 #gallery-1{
 	display: none;
-	} 
-h1 {
+} 
+h1{
 	font-size: 2em;
 	text-shadow: 5px 5px 5px #000;
-	color: #000;
+	color: #A7990E;
 	}
 }
 /*----------desktop styles----------*/
 @media only screen and (min-width: 769px) and (max-width: 960px) {
-html {
+html{
 	background-color: #DAA520;
-	}
-body {
+}
+body{
 	background-color: #D6AC81;	
-	}
-#navbar li a {
+}
+#navbar li a{
 	background-color: #DAA520;
 	border-radius: 10px;
-	}
-h1 {
+}
+h1{
 	font-size: 2em;
 	color: #C08B00;
 	}
 }
 /*----------monitor styles---------*/
-@media only screen and (min-width: 961px) {
-html {
+@media only screen and (min-width: 961px){
+html{
 	background-color: #DAA520;
 	}
 }
