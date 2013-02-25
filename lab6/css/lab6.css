@@ -1,0 +1,27 @@
+html{
+	background: url(../img/bg_repeat.png) repeat-x #7199DC;
+	}
+body{
+	font: 0.8125em/1 "helvetica neue", helvetica, geneva, arial, sans-serif;		
+}
+#wrapper{
+	margin: 0 auto;
+	width: 800px;
+}
+#global{
+	background-color: #FBFBFB;
+	background-position: top center;
+}
+#global_shadow{
+	background-image: url(../img/bg_header.png);
+}
+#content{
+	background-color: #FBFBFB;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;	
+}
+#nav{
+	list-style-type: none;
+}
