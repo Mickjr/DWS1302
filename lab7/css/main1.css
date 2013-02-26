@@ -1,0 +1,67 @@
+body{
+	width:900px;
+	margin:0 auto;
+	background:#E9E5FF;
+	}	
+/*---------HTML Reset----------*/
+form,fieldset,label,input,select,option{
+	margin: 0;
+	padding: 0;
+	border:0;
+	}
+/*----------defining form element defaults--------*/
+label,input,select,option{
+	display:block;
+	}
+label,select,input[type="text"]{
+	margin-bottom:20px;
+	float:left;
+	}
+form,fieldset{
+	padding:20px;
+	border-radius:10px;
+	}	
+form{
+	background:#D06632;
+	}
+fieldset{
+	background:#CFB4A1;
+	}
+label{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	background:#2E4559;
+	text-align:center;
+	color:#fff;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	}
+select,input[type="text"]{
+	width:700px;
+	height:30px;
+	line-height:30px;
+	margin-left:20px;
+	}
+select:focus,input[type="text"]:focus{
+	background:#C0C0C0;
+	}
+option{
+	height:20px;
+	line-height:20px;
+	padding-top:10px;
+	padding-left:10px;
+	}
+input[type="submit"]{
+	width:100px;
+	height:35px;
+	line-height:35px;
+	margin:0 auto;
+	clear:left;
+	border-radius:10px;
+	background:#2B2E37;
+	color:#fff;
+	}
+input[type="submit"]:hover{
+	background:#D06632;
+	}
