@@ -1,0 +1,98 @@
+body{
+	width: 600px;
+	margin: 0 auto;
+	background:#365014;
+	}
+/*----------reset---------*/
+form,fieldset,select,input[type="file"],input[type="text"],input[type="radio"],textarea,#leftcolumn,#rightcolumn,input[type="submit"]{
+	margin:0;
+	padding:0;
+	border:0;
+	}
+/*-----defining page structure-------*/
+label, input, select,textarea{
+	display: block;
+	}
+form,fieldset{
+	padding: 20px;
+	border-radius:10px;
+	}	
+form{
+	background:#D35F15;
+	}	
+fieldset{	
+	background:#99B19B;
+	}
+#leftcolumn{
+	width:560px;
+	float:left;
+	}
+#rightcolumn{
+	width:560px;
+	float:left;
+	margin-top:-10px;
+	padding-top:20px;
+	}
+#textarea{
+	clear:left;
+	}
+#leftcolumn label{
+	width:200px;
+	height:35px;
+	line-height:35px;
+	margin-bottom:20px;
+	float:left;
+	}
+#leftcolumn input[type="file"]{
+	text-align:center;
+	}
+#leftcolumn input[type="file"], #leftcolumn input[type="text"]{
+	width:300px;
+	height:35px;
+	line-height:35px;
+	margin-bottom:20px;
+	float:left;
+	}
+#gender{
+	float:left;
+	clear:left;
+	}
+#rightcolumn label{
+	width:200px;
+	height:35px;
+	line-height:35px;
+	margin-bottom:20px;
+	float:left;
+	}
+#rightcolumn select{
+	width:300px;
+	height:35px;
+	line-height:35px;
+	margin-bottom:20px;
+	float:left;
+	}
+#url label{
+	height:35px;
+	line-height:35px;
+	margin-bottom:10px;
+	}
+#url input[type="text"]{
+	height:25px;
+	line-height:25px;
+	margin-bottom:10px;
+	}
+#footer input[type="submit"]{
+	height:40px;
+	line-height:40px;
+	margin-bottom:10px;
+	width:150px;
+	margin-top:20px;
+	margin:0 auto;
+	border-radius:10px;
+	}
+textarea:focus, input[type="text"]:focus,select:focus,input[type="file"]:focus{
+	background:#B2B2B2;
+	}
+input[type="submit"]:hover{	
+	background:#99B19B;
+	}

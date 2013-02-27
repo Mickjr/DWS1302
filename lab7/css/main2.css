@@ -1,0 +1,68 @@
+body{
+	width: 600px;
+	margin: 0 auto;
+	background:#E8E5E5;
+	}		
+/*----------Reset----------*/
+input, fieldset, form, label, select,textarea{
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+/*-------defining default structure-----*/
+label,input[type="text"],textarea,input[type="submit"]{
+	display:block;
+	}
+label,input[type="text"],textarea{
+	margin-bottom:20px;
+	}
+form,fieldset{
+	padding:20px;
+	border-radius:10px;
+	}
+form{
+	background:#400C07;
+	}
+fieldset{
+	background:#F4D1B5;
+	}
+label{
+	height:30px;
+	line-height:30px;
+	background:#B34B0B;
+	width:200px;
+	text-align:center;
+	float:left;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	color:#fff;
+	}
+input[type="text"]{
+	height:30px;
+	line-height:30px;
+	width:310px;
+	float:left;
+	margin-left:10px;
+	}
+textarea{
+	height:200px;
+	width:310px;
+	float:left;
+	margin-left:10px;
+	}
+input[type="text"]:focus,textarea:focus{
+	background:#A8A8A8;
+	}
+input[type="submit"]{
+	clear:left;
+	margin:0 auto;
+	width:100px;
+	height:35px;
+	line-height:30px;
+	border-radius:10px;
+	background:#213245;
+	color:#fff;
+	}
+input[type="submit"]:hover{
+	background:#400C07;
+	}
